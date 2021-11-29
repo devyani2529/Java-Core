@@ -1,0 +1,16 @@
+import java.util.*
+class Rectangle
+{
+      public static void main(String args[])
+      {
+      float l,b,a;
+      Scanner s=new Scanner(System.in);
+      System.out.println("enter the length and breadth");
+      l=s.nextFloat();
+      b=s.nextFloat();
+      a=l*b;
+      System.out.println("Area of rectangle is="+a);
+      }
+}
+
+       
